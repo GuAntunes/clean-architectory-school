@@ -1,3 +1,7 @@
+package br.com.gustavoantunes.escola
+
+import br.com.gustavoantunes.escola.aluno.AlunoBuilder
+
 fun main(){
     val alunoBuilder = AlunoBuilder()
     alunoBuilder

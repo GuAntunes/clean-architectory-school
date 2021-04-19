@@ -1,4 +1,4 @@
-import java.lang.IllegalStateException
+package br.com.gustavoantunes.escola.aluno
 
 class AlunoBuilder() {
 

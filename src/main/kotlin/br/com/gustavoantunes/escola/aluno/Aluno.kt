@@ -1,3 +1,5 @@
+package br.com.gustavoantunes.escola.aluno
+
 class Aluno(
     val nome: String,
     val cpf: CPF,

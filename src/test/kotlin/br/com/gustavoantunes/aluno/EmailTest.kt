@@ -1,12 +1,14 @@
+package br.com.gustavoantunes.aluno
+
+import br.com.gustavoantunes.escola.aluno.Email
 import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Nested
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.assertThrows
 import java.lang.IllegalArgumentException
 import kotlin.test.assertEquals
-import kotlin.test.assertTrue
 
-@DisplayName("When create a Email")
+@DisplayName("When create a br.com.gustavoantunes.escola.aluno.Email")
 internal class EmailTest {
 
     @Nested

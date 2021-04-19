@@ -1,3 +1,5 @@
+package br.com.gustavoantunes.escola.aluno
+
 class Email(
     val endereco: String
 ) {
