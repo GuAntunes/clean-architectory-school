@@ -2,11 +2,11 @@ package br.com.gustavoantunes.escola.usecase.aluno.matricular
 
 import br.com.gustavoantunes.escola.domain.aluno.AlunoRepository
 
-class Matricular(
+class MatricularAluno(
     val repositorio: AlunoRepository
 ) {
 
-    fun matricular(alunoDTO: MatricularAlunoDTO){
+    fun executa(alunoDTO: MatricularAlunoDTO){
         val novoAluno = alunoDTO.toAluno()
         repositorio.matricular(novoAluno)
     }
