@@ -1,6 +1,6 @@
 package br.com.gustavoantunes.escola
 
-import br.com.gustavoantunes.escola.aluno.AlunoBuilder
+import br.com.gustavoantunes.escola.domain.aluno.AlunoBuilder
 
 fun main(){
     val alunoBuilder = AlunoBuilder()

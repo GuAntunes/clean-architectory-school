@@ -1,6 +1,6 @@
-package br.com.gustavoantunes.escola.indicacao
+package br.com.gustavoantunes.escola.domain.indicacao
 
-import br.com.gustavoantunes.escola.aluno.Aluno
+import br.com.gustavoantunes.escola.domain.aluno.Aluno
 import java.time.LocalDateTime
 
 class Indicacao(

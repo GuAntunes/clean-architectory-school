@@ -1,4 +1,4 @@
-package br.com.gustavoantunes.escola.aluno
+package br.com.gustavoantunes.escola.domain.aluno
 
 class Email(
     val endereco: String

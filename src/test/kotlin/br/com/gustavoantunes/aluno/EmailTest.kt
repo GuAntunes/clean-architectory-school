@@ -1,6 +1,6 @@
 package br.com.gustavoantunes.aluno
 
-import br.com.gustavoantunes.escola.aluno.Email
+import br.com.gustavoantunes.escola.domain.aluno.Email
 import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Nested
 import org.junit.jupiter.api.Test
